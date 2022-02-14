@@ -1,11 +1,11 @@
 <template>
 
-	<h1>Item Info</h1>
-	<ul>
-		<li>item_embedding: {{ctx.item_embedding}}</li>
-	</ul>
+	<h1>item_embedding</h1>
+	<div>
+		{{ctx.item_embedding}}
+	</div>
 
-	<h1>i2i</h1>
+	<h1>I2I</h1>
 	<ul>
 		<li v-for="item in ctx.item_list">{{item}}</li>
 	</ul>

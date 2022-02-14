@@ -1,17 +1,17 @@
 <template>
 
-	<h1>User Info</h1>
-	<ul>
-		<li>user_embedding: {{ctx.user_embedding}}</li>
-	</ul>
+	<h1>user_embedding</h1>
+	<div>
+		{{ctx.user_embedding}}
+	</div>
 
 
-	<h1>User Action List</h1>
-	<ul>
-		<li v-for="watch_id in ctx.watch_ids">{{watch_id}}</li>
-	</ul>
+	<h1>User Watched Ids</h1>
+	<div>
+		{{ctx.watch_ids}}
+	</div>
 
-	<h1>u2i</h1>
+	<h1>U2I</h1>
 	<ul>
 		<li v-for="item in ctx.item_list">{{item}}</li>
 	</ul>
