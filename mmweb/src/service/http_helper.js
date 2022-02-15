@@ -5,7 +5,7 @@ import axios from "axios";
 
 const http_helper = axios.create({
 	// baseURL: BASE_URL || "https://47.111.90.195/api",
-	baseURL: 'localhost:8080/api'
+	baseURL: 'localhost:5000/api'
 });
 
 
