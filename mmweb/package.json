@@ -9,6 +9,10 @@
   },
   "dependencies": {
     "axios": "^0.26.0",
+    "element-plus": "^2.0.2",
+    "github-markdown-css": "^5.1.0",
+    "markdown-it-prism": "^2.2.3",
+    "vite-plugin-md": "^0.11.8",
     "vue": "^3.2.25",
     "vue-router": "^4.0.12"
   },
